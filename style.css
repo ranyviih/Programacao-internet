@@ -1,0 +1,186 @@
+/*comentario em CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EFF5F5;
+}
+
+
+
+
+ul {
+  list-style: none;
+  font-weight: bold;
+  color: #b4079d;
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+/*h1{
+  color: #ca36ca;
+  font-size: 35px;
+}*/
+
+
+
+
+p{
+  color: #6b0c3f;
+}
+
+
+
+
+button{
+  color: #530225;
+  padding: 8px 13px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bold;
+  /*background: #6b0c3f;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+header{
+  background:no-repeat center/cover url(assets/monte.jpg);
+  height: calc(100vh - 150px);
+}
+
+
+
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 90px;
+}
+
+
+
+
+header nav p{
+  font-weight: bold;
+}
+
+
+
+
+header nav ul{
+  display: flex;
+}
+
+
+
+
+header nav ul li{
+  margin: 0 15px;
+}
+
+
+
+
+.header-content{  /*ponto no inicio pois é uma class*/
+  max-width: 400px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+
+
+
+.header-content h1{
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+
+
+
+.pacotes {
+  background: #FAD9E6;
+  padding: 15px;
+}
+
+
+
+
+.pacotes .pacotes-cards {
+  display: flex;
+  margin: auto;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pacotes .pacotes-title {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+.pacotes .card {
+  width: 250px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+  margin: 25px;
+  position: relative;
+  border-radius: 24px 0;
+}
+
+
+
+
+.pacotes .card-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 24px /*0 0 0*/;
+  object-fit: cover;
+}
+
+
+.pacotes .cards-content {
+  padding: 0.6px;
+}
+
+
+.pacotes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+
+.pacotes .card-content ul li {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 3px;
+  color: rgb(235, 164, 217);
+  font-weight: bold;
+}
+
+
+.pacotes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
