@@ -1,4 +1,3 @@
-/*comentario em CSS*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
 box-sizing: border-box;
@@ -15,52 +14,47 @@ background-color: #EFF5F5; /*cor de fundo*/
 
 
 ul {
-list-style: none; /*estilo de lista*/
-font-weight: bold; /*intencidade da fonte*/
-color: #b4079d;
+list-style: none; 
+font-weight: bold;
+color: #a79aa5;
 }
 
 
 
 a{
-text-decoration: none;/*decoracao de texto*/
+text-decoration: none;
 color: inherit;
 }
 
 
-/*h1{
-color: #ca36ca;
-font-size: 35px; - tamanho da fonte
-}*/
 
 
 
 p{
-color: #6b0c3f;
+color: #d2d2d2;
 }
 
 
 button{
-color: rgba(243, 64, 171, 0.986);
-padding: 8px 13px; /*preenchimento*/
-border-radius: 8px; /*raio da borda*/
-border: 0; /*borda*/
+color: rgba(129, 123, 127, 0.986);
+padding: 9px 14px; 
+border-radius: 15px; 
+border: 2; 
 font-weight: bold;
-/*background: #6b0c3f;*/
 font-family: 'Montserrat', sans-serif;
 }
 
 
 header{
-background:no-repeat center/cover url(assets/montefuji.jpg); /*plano de fundo*/
-height: calc(100vh - 150px); /*altura*/
+background:no-repeat center/cover url(assets/camp.jpg); /*plano de fundo*/
+height: calc(110vh - 150px);
 }
 
 
 header nav{ /*cabecalho de navegacao*/
 display: flex; /*exibicao*/
 justify-content: space-between;/*justificar conteudo*/
-margin: auto 90px;
+margin: auto 180px;
 }
 
 
@@ -94,37 +88,37 @@ font-size: 4rem; /*tamanho da fonte*/
 
 
 
-.pacotes {
-background: #FAD9E6; /*plano de fundo*/
-padding: 15px; /*preenchimento*/
+.historia {
+background: #888586; /*plano de fundo*/
+padding: 20px; /*preenchimento*/
 }
 
 
-.pacotes .pacotes-cards {
+.historia .historia-cards {
 display: flex; /*exibicao*/
 margin: auto;
 max-width: 950px;
 flex-wrap: wrap; 
 justify-content: center;
 }
-.pacotes .pacotes-title {
+.historia .historia-title {
 width: 100%; /*largura*/
 text-align: center;
 font-size: 30px;
 color: #000000;
 margin: 25px 0;
 }
-.pacotes .card {
+.historia .card {
 width: 250px;
 height: 350px;
-background: rgb(255, 255, 255);
+background: rgb(270, 270, 270);
 margin: 25px;
 position: relative;
 border-radius: 24px 0;
 }
 
 
-.pacotes .card-image {
+.historia .card-image {
 width: 250px;
 height: 200px;
 border-radius: 24px 0 0 0;
@@ -132,173 +126,172 @@ object-fit: cover;
 }
 
 
-.pacotes .cards-content {
+.historia .cards-content {
 padding: 0.6px;
 }
 
 
-.pacotes .card-content ul {
+.historia .card-content ul {
 display: flex;
 flex-direction: column;
 padding: 0;
 }
 
 
-.pacotes .card-content ul li {
-font-size: 1rem;
+.historia .card-content ul li {
+font-size: 0.9rem;
 display: flex;
 align-items: center;
-margin: 3px;
+margin: 2px;
 color: rgb(0, 0, 0);
 font-weight: bold;
 }
 
 
-.pacotes .card-content li svg {
-width: 16px;
-height: 16px;
+.historia .card-content li svg {
+width: 18px;
+height: 18px;
 margin-right: 15px;
 }
 
 
-.pacotes .card-content h1 {
-  font-size: 1rem;
+.historia .card-content h1 {
+font-size: 1rem;
 }
 
 
-.pacotes .card .card-tag-top {
-  position: absolute;
-  right: 0; /*direita*/
-  top: 14px; /*suerior*/
-  background: #FAD9E6;
-  border-radius: 8px 0 0 8px;
-  padding: 5px 10px;
+.histroia .card .card-tag-top {
+position: absolute;
+right: 0; /*direita*/
+top: 14px; /*suerior*/
+background: #a9a4a6;
+border-radius: 2px 0 0 8px;
+padding: 5px 10px;
 }
 
 
-.pacotes .card .card-tag-bottom {
-  position: absolute;
-  left: 0; /*esquerda*/
-  top: 160px;
-  background: #FAD9E6;
-  border-radius: 0 8px 8px 0;
-  padding: 5px 10px;
+.histroia .card .card-tag-bottom {
+position: absolute;
+left: 0; /*esquerda*/
+top: 160px;
+background: #6f6f6f;
+border-radius: 0 10px 10px 0;
+padding: 10px 10px;
 }
 
 
-.pacotes .card .card-tag p {
-  margin: 0;
-  font-size: 0.8rem;
-  color: #000000;
-  font-weight: bold;
+.historia .card .card-tag p {
+margin: 0;
+font-size: 0.8rem;
+color: #bcbaba;
+font-weight: bold;
 }
 
 
-.servicos {
-  padding: 15px;
+.jogadores {
+padding: 15px;
 }
 
 
-.servicos .servicos-tittle {
-  text-align: center;
-  margin: 35px 0;
+.jogadores .jogadores-tittle {
+text-align: center;
+margin: 35px 0;
 }
 
 
-.servicos .servicos-cards {
-  margin-top: 25px;
-  display: flex;
-  max-width: 950px;
-  justify-content: center;
-  margin: auto;
-  flex-wrap: wrap;
-}
-
-
-
-.servicos .card {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 20px;
-}
-
-
-.servicos .card svg {
-  width: 60px;
-  height: 60px;
-  margin: 50px;
-  transition: all 1s;
-}
-
-
-.servicos .card svg:hover {
-  stroke: #FAD9E6;
-  transform: scale(1.1);
+.jogadores .jogadores-cards {
+margin-top: 25px;
+display: flex;
+max-width: 950px;
+justify-content: center;
+margin: auto;
+flex-wrap: wrap;
 }
 
 
 
+.jogadores .card {
+width: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 20px;
+}
 
-.servicos .card h3 {
-  font-weight: bold;
+
+.jogadores .card svg {
+width: 60px;
+height: 60px;
+margin: 50px;
+transition: all 1s;
+}
+
+
+.jogadores .card svg:hover {
+stroke: #b4adaf;
+transform: scale(1.1);
 }
 
 
 
 
-.servicos .card p {
-  color: #000000;
-  font-size: 1rem;
-  text-align: center;
+.jogadores .card h3 {
+font-weight: bold;
 }
 
 
 
 
-.servicos .card .card-content {
-  height: 180px;
-  text-align: center;
+.jogadores .card p {
+color: #000000;
+font-size: 1rem;
+text-align: center;
 }
 
 
-.contato {
-  padding: 60px;
-  background: #FAD9E6;
-  position: relative;
-  text-align: right;
+
+
+.jogadores .card .card-content {
+height: 180px;
+text-align: center;
 }
 
 
-.contato .contato-card {
-  width: 350px;
-  height: 300px;
-  background: #FAD9E6;
-  position: absolute;
-  z-index: 99; /*indice*/
-  border-radius: 8px;
-  top: calc(50% - 150px); /*topo*/
-  left: calc(20% - 175px);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.titulo {
+padding: 60px;
+background: #959293;
+position: relative;
+text-align: right;
 }
 
 
-.contato.contato-card h1 {
-  padding-left: 50px;
-  text-align: left;
+.titulo .titulo-card {
+width: 350px;
+height: 300px;
+background: #8b8789;
+position: absolute;
+z-index: 99; /*indice*/
+border-radius: 8px;
+top: calc(50% - 150px); /*topo*/
+left: calc(20% - 175px);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 
-.contato .contato-card li {
-  font-size: .8rem;
-  font-weight: bold;
-  color: #b4079d;
-  display: flex;
-  align-items: center;
+.titulo.titulo-card h1 {
+padding-left: 50px;
+text-align: left;
 }
 
+
+.titulo .titulo-card li {
+font-size: .8rem;
+font-weight: bold;
+color: #0e0b0e;
+display: flex;
+align-items: center;
+}
