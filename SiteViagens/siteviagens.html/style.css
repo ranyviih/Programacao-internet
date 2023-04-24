@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+box-sizing: border-box;
+}
+
+
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+background-color: #EFF5F5; /*cor de fundo*/
+}
+
+
+
+ul {
+list-style: none; 
+font-weight: bold;
+color: #a79aa5;
+}
+
+
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+
+
+
+
+p{
+color: #d2d2d2;
+}
+
+
+button{
+color: rgba(129, 123, 127, 0.986);
+padding: 9px 14px; 
+border-radius: 15px; 
+border: 2; 
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+background:no-repeat center/cover url(assets/camp.jpg); /*plano de fundo*/
+height: calc(110vh - 150px);
+}
+
+
+header nav{ /*cabecalho de navegacao*/
+display: flex; /*exibicao*/
+justify-content: space-between;/*justificar conteudo*/
+margin: auto 180px;
+}
+
+
+header nav p{
+font-weight: bold;
+}
+
+
+header nav ul{
+display: flex;
+}
+
+
+header nav ul li{
+margin: 0 15px;
+}
+
+
+.header-content{  /*ponto no inicio pois é uma class*/
+max-width: 400px; /*largura maxima*/
+margin: 150px auto; 
+text-align: center; /*alinhamento do texto*/
+}
+
+
+.header-content h1{
+margin-bottom: 10px; /*margin inferior*/
+font-size: 4rem; /*tamanho da fonte*/
+}
+
+
+
+
+.historia {
+background: #888586; /*plano de fundo*/
+padding: 20px; /*preenchimento*/
+}
+
+
+.historia .historia-cards {
+display: flex; /*exibicao*/
+margin: auto;
+max-width: 950px;
+flex-wrap: wrap; 
+justify-content: center;
+}
+.historia .historia-title {
+width: 100%; /*largura*/
+text-align: center;
+font-size: 30px;
+color: #000000;
+margin: 25px 0;
+}
+.historia .card {
+width: 250px;
+height: 350px;
+background: rgb(270, 270, 270);
+margin: 25px;
+position: relative;
+border-radius: 24px 0;
+}
+
+
+.historia .card-image {
+width: 250px;
+height: 200px;
+border-radius: 24px 0 0 0;
+object-fit: cover;
+}
+
+
+.historia .cards-content {
+padding: 0.6px;
+}
+
+
+.historia .card-content ul {
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+
+
+.historia .card-content ul li {
+font-size: 0.9rem;
+display: flex;
+align-items: center;
+margin: 2px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+
+
+.historia .card-content li svg {
+width: 18px;
+height: 18px;
+margin-right: 15px;
+}
+
+
+.historia .card-content h1 {
+font-size: 1rem;
+}
+
+
+.histroia .card .card-tag-top {
+position: absolute;
+right: 0; /*direita*/
+top: 14px; /*suerior*/
+background: #a9a4a6;
+border-radius: 2px 0 0 8px;
+padding: 5px 10px;
+}
+
+
+.histroia .card .card-tag-bottom {
+position: absolute;
+left: 0; /*esquerda*/
+top: 160px;
+background: #6f6f6f;
+border-radius: 0 10px 10px 0;
+padding: 10px 10px;
+}
+
+
+.historia .card .card-tag p {
+margin: 0;
+font-size: 0.8rem;
+color: #bcbaba;
+font-weight: bold;
+}
+
+
+.jogadores {
+padding: 15px;
+}
+
+
+.jogadores .jogadores-tittle {
+text-align: center;
+margin: 35px 0;
+}
+
+
+.jogadores .jogadores-cards {
+margin-top: 25px;
+display: flex;
+max-width: 950px;
+justify-content: center;
+margin: auto;
+flex-wrap: wrap;
+}
+
+
+
+.jogadores .card {
+width: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 20px;
+}
+
+
+.jogadores .card svg {
+width: 60px;
+height: 60px;
+margin: 50px;
+transition: all 1s;
+}
+
+
+.jogadores .card svg:hover {
+stroke: #b4adaf;
+transform: scale(1.1);
+}
+
+
+
+
+.jogadores .card h3 {
+font-weight: bold;
+}
+
+
+
+
+.jogadores .card p {
+color: #000000;
+font-size: 1rem;
+text-align: center;
+}
+
+
+
+
+.jogadores .card .card-content {
+height: 180px;
+text-align: center;
+}
+
+
+.titulo {
+padding: 60px;
+background: #959293;
+position: relative;
+text-align: right;
+}
+
+
+.titulo .titulo-card {
+width: 350px;
+height: 300px;
+background: #8b8789;
+position: absolute;
+z-index: 99; /*indice*/
+border-radius: 8px;
+top: calc(50% - 150px); /*topo*/
+left: calc(20% - 175px);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.titulo.titulo-card h1 {
+padding-left: 50px;
+text-align: left;
+}
+
+
+.titulo .titulo-card li {
+font-size: .8rem;
+font-weight: bold;
+color: #0e0b0e;
+display: flex;
+align-items: center;
+}
