@@ -1,0 +1,366 @@
+/* Comentários em CSS */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+* {
+box-sizing: border-box;
+}
+
+
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+background-color: #ECF9FF;
+}
+
+
+
+
+ul {
+list-style: none;
+font-weight: bold;
+color: #F24A72;
+}
+
+
+
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
+
+button {
+color: #EB455F;
+padding: 9px 12px;
+border-radius: 8px;
+border: 0;
+font-size: 14px;
+font-weight: bold;
+background: #FEFCF3;
+font-family: 'Montserrat', 'sans-serif';
+}
+
+
+
+
+header {
+background: no-repeat center/cover url('assets/montefuji.jpg');
+height: calc(100vh - 150px);
+}
+
+
+
+
+header nav {
+display: flex;
+justify-content: space-between;
+margin: auto 90px;
+}
+
+
+
+
+header nav p {
+font-weight: bold;
+color: #EB455F;
+}
+
+
+
+
+
+header nav ul {
+display: flex;
+}
+
+
+
+
+
+
+header nav ul li {
+margin: 0 15px;
+}
+
+
+
+
+
+
+.header-content {
+max-width: 400px;
+margin: 150px auto;
+text-align: center;
+}
+
+
+
+
+
+.header-content h1 {
+margin-bottom: 10px;
+font-size: 4rem;
+color: #EB455F
+}
+
+
+
+
+
+.pacotes {
+background: #ECF2FF;
+padding: 15px;
+}
+
+
+
+.pacotes .pacotes-cards {
+display: flex;
+margin: auto;
+max-width: 950px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+
+
+.pacotes .pacotes-title{
+width: 100%;
+text-align: center;
+margin: 25px 0;
+font-size: 30px;
+color: #EB455F;
+}
+
+
+
+
+.pacotes .card{
+width: 250px;
+height: 350px;
+background: white;
+border-radius: 24px 0;
+margin: 25px;
+position: relative;
+}
+
+
+
+.pacotes .card-image {
+width: 250px;
+height: 200px;
+border-radius: 24px 0 0 0;
+object-fit: cover;
+}
+
+
+
+
+
+.pacotes .card-content{
+ padding: 0 15px;
+}
+
+
+
+
+.pacotes .card-content ul{
+ display: flex;
+ flex-direction: column;
+ padding: 0;
+}
+
+
+
+.pacotes .card-content ul li{
+ font-size: 0.9rem; /* 0.6rem  */
+ display: flex;
+ align-items: center;
+ margin: 3px;
+ color: gray;
+ font-weight: bold;
+}
+
+
+
+.pacotes .card-content li svg { /* svg = icons */
+ width: 16px;
+ height: 16px;
+ margin-right: 15px;
+}
+
+
+
+
+.pacotes .card-content h1 {
+  font-size: 1rem;
+}
+
+
+
+
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: #F7C8E0;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+
+
+
+.pacotes .card .card-tag-bottom{
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #F7C8E0;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+}
+
+
+
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
+.servicos {
+  padding: 15px;
+}
+
+
+
+
+.servicos .servicos-tittle {
+  text-align: center;
+  margin: 35px 0; 
+  font-size: 30px;
+  color: #EB455F;
+}
+
+
+
+
+.servicos .servicos-cards {
+  margin-top: 25px;
+  display: flex;
+  max-width: 950px;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+
+
+.servicos .card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+
+
+
+.servicos .card svg {
+  width: 60px;
+  height: 60px;
+  margin: 50px;
+  transition: all 1s;
+}
+
+
+
+
+.servicos .card svg:hover {
+  stroke: #FF597B;
+  transform: scale(1.1);
+}
+
+
+
+
+.servicos .card p {
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+.servicos .card .card-content{
+  height: 180px;
+  text-align: center;
+}
+
+
+.contato {
+   padding: 60px;
+   background: #f7faff;
+   position: relative;
+   text-align: right;
+}
+
+
+.contato .contato-card {
+   width: 350;
+   height: 300px;
+   background: white;
+   position: absolute;
+   z-index: 99;
+   border-radius: 8px;
+   top: calc(50% - 150px);
+   left: calc(20% - 175px);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+.contato .contato-card h1 {
+   padding-left: 50px;
+   text-align: left;
+}
+
+
+.contato .contato-card li {
+   font-size: .8rem;
+   font-weight: bold;
+   color: grey;
+   display: flex;
+   align-items: center;
+}
+
+.contato .contato-card li svg {
+    width: 16px;
+    margin: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
