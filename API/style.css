@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@200&display=swap");
+
+/* Reset de estilos padrão */
+body,
+h1,
+h2,
+h3,
+p,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fcdefa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container div {
+
+  border-radius: 1px;
+  padding: 2px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  background-color: #f7f7f7;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+  margin-top: 0;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+/*footer {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}*/
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+header img {
+  width: 20rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
